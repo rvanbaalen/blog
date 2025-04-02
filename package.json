@@ -1,0 +1,32 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rvanbaalen/blog.git"
+  },
+  "keywords": [],
+  "author": "Robin S. van Baalen",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/rvanbaalen/blog/issues"
+  },
+  "homepage": "https://github.com/rvanbaalen/blog#readme",
+  "devDependencies": {
+    "@rvanbaalen/readme-to-html": "^1.3.1",
+    "@tailwindcss/typography": "^0.5.16",
+    "tailwindcss": "^4.1.1",
+    "vite": "^6.2.4"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.1"
+  }
+}
